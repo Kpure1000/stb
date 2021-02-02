@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="deprecated">
+      <UniqueIdentifier>{F602F355-E2BA-34A3-4BC2-0DFF3799CF93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests">
+      <UniqueIdentifier>{78756B10-E489-93C1-AD0B-372119DF8FF2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\caveview">
+      <UniqueIdentifier>{C119D977-ADE7-CC7D-967B-3DA482E8A8E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\caveview\win32">
+      <UniqueIdentifier>{83EE7625-6F7D-00EF-189C-14EA040A1195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\oversample">
+      <UniqueIdentifier>{25A904C2-11A2-2314-3AD4-0899262C0320}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\pg_test">
+      <UniqueIdentifier>{BDE031CA-29A1-AD00-F2DB-F67D5E5BF2DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\prerelease">
+      <UniqueIdentifier>{0FA937D4-FBA1-5626-24D4-3BAB102C3632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\sdf">
+      <UniqueIdentifier>{C42DB59B-3098-6912-79D6-1AB8E57F4767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\vorbseek">
+      <UniqueIdentifier>{C896DE2C-B464-D232-9DF8-42598965AE97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools">
+      <UniqueIdentifier>{36DF7010-A2F3-98C1-6B75-3C21D74895F2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="deprecated\rrsprintf.h">
+      <Filter>deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="stb.h" />
+    <ClInclude Include="stb_c_lexer.h" />
+    <ClInclude Include="stb_connected_components.h" />
+    <ClInclude Include="stb_divide.h" />
+    <ClInclude Include="stb_ds.h" />
+    <ClInclude Include="stb_dxt.h" />
+    <ClInclude Include="stb_easy_font.h" />
+    <ClInclude Include="stb_herringbone_wang_tile.h" />
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="stb_image_resize.h" />
+    <ClInclude Include="stb_image_write.h" />
+    <ClInclude Include="stb_include.h" />
+    <ClInclude Include="stb_leakcheck.h" />
+    <ClInclude Include="stb_perlin.h" />
+    <ClInclude Include="stb_rect_pack.h" />
+    <ClInclude Include="stb_sprintf.h" />
+    <ClInclude Include="stb_textedit.h" />
+    <ClInclude Include="stb_tilemap_editor.h" />
+    <ClInclude Include="stb_truetype.h" />
+    <ClInclude Include="stb_voxel_render.h" />
+    <ClInclude Include="stretchy_buffer.h" />
+    <ClInclude Include="tests\caveview\cave_parse.h">
+      <Filter>tests\caveview</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\caveview\caveview.h">
+      <Filter>tests\caveview</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\caveview\glext.h">
+      <Filter>tests\caveview</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\caveview\glext_list.h">
+      <Filter>tests\caveview</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\caveview\stb_gl.h">
+      <Filter>tests\caveview</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\caveview\stb_glprog.h">
+      <Filter>tests\caveview</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\oversample\stb_wingraph.h">
+      <Filter>tests\oversample</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\prerelease\stb_lib.h">
+      <Filter>tests\prerelease</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="deprecated\stb_image.c">
+      <Filter>deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_vorbis.c" />
+    <ClCompile Include="tests\c_lexer_test.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\caveview\cave_main.c">
+      <Filter>tests\caveview</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\caveview\cave_mesher.c">
+      <Filter>tests\caveview</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\caveview\cave_parse.c">
+      <Filter>tests\caveview</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\caveview\cave_render.c">
+      <Filter>tests\caveview</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\caveview\main.c">
+      <Filter>tests\caveview</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\caveview\win32\SDL_windows_main.c">
+      <Filter>tests\caveview\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\fuzz_main.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\grid_reachability.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\herringbone_generator.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\herringbone_map.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\image_test.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\image_write_test.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\oversample\main.c">
+      <Filter>tests\oversample</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\pg_test\pg_test.c">
+      <Filter>tests\pg_test</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\resample_test_c.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\sdf\sdf_test.c">
+      <Filter>tests\sdf</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\stb.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\stb_static.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\stbi_read_fuzzer.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\stblib_test.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\stblib_test_companion.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\stretch_test.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\stretchy_buffer_test.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\test_c_compilation.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\test_c_lexer.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\test_ds.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\test_dxt.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\test_easyfont.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\test_image.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\test_image_write.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\test_perlin.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\test_siphash.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\test_sprintf.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\test_truetype.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\test_vorbis.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\test_voxel.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\textedit_sample.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\tilemap_editor_integration_example.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\vorbseek\vorbseek.c">
+      <Filter>tests\vorbseek</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\build_matrix.c">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\easy_font_maker.c">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\make_readme.c">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\trailing_whitespace.c">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\unicode.c">
+      <Filter>tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

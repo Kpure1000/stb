@@ -1,7 +1,6 @@
 project "stb"
 	kind "StaticLib"
 	language "C++"
-	cppdialect "C++17"
 	staticruntime "On"
 
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
@@ -9,13 +8,15 @@ project "stb"
 
 	files
 	{
-		"%{prj.name}/src/**.h",
-		"%{prj.name}/src/**.c",
+		"stb_image.h",
+		"stb_image_write.h",
+		"stb_vorbis.c",
 	}
 
-	defines 
+	defines
 	{
-		"_CRT_SECURE_NO_WARNINGS",
+		"STB_IMAGE_IMPLEMENTATION",
+		"STB_IMAGE_WRITE_IMPLEMENTATION",
 	}
 
 	filter "system:windows"
